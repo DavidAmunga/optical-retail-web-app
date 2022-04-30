@@ -6,6 +6,7 @@ const createMainWindow = () => {
     width: electronScreen.getPrimaryDisplay().workArea.width * 0.7,
     height: electronScreen.getPrimaryDisplay().workArea.height * 0.7,
     show: false,
+    icon: __dirname + 'public/favicon.ico',
     backgroundColor: 'white',
     webPreferences: {
       nodeIntegration: false,
